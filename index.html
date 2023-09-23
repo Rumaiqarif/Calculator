@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+<div class="calculator">
+    <h2><span>C</span>alculator by <span>R</span>umaiq</h2>
+<input type="text" id="result" readonly><br>
+
+<button onclick="addToResult('.')">.</button>
+<button onclick="addToResult('/')">/</button>
+<button onclick="addToResult('*')">*</button>
+<button onclick="addToResult('-')">-</button>
+<button onclick="addToResult('7')">7</button>
+<button onclick="addToResult('8')">8</button>
+<button onclick="addToResult('9')">9</button>
+<button onclick="addToResult('+')">+</button>
+<button onclick="addToResult('4')">4</button>
+<button onclick="addToResult('5')">5</button>
+<button onclick="addToResult('6')">6</button>
+<button onclick="calculate()">=</button>
+<button onclick="addToResult('1')">1</button>
+<button onclick="addToResult('2')">2</button>
+<button onclick="addToResult('3')">3</button>
+<button onclick="addToResult('0')">0</button>
+<button  id="clear" onclick="clearResult()">C</button>
+
+
+
+<script src="calculator.js"></script>
+
+
+</div>
+<!--<a href="main.html"><button class="back">back</button></a>--------->
+</body>
+</html>
