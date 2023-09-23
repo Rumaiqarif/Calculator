@@ -72,11 +72,8 @@ span{
 }
 @media only screen and (max-width:600px){
 .calculator{
-    margin-left: 120px;
-     margin-right: 30px;
+   /* margin-left: 120px;*/
 }
-body{
-    padding:20px;
 
 
 }
